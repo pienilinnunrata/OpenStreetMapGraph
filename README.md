@@ -14,9 +14,9 @@
 
 Реализовано:
 * Парсинг выгруженного с OpenStreetMap .osm файла;
-* Визуализация графа в .svg с узлами (end_node и crossroad_node) и наиболее важными дорогами;
-* Вывод матрицы смежности в .csv;
-* Вывод списка смежности в .csv. 
+* [Визуализация графа в .svg с узлами (end_node и crossroad_node) и наиболее важными дорогами](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/pictures/kaliningrad_map.svg);
+* [Вывод матрицы смежности в .csv](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/csv/adjacency_matrix.csv);
+* [Вывод списка смежности в .csv](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/csv/adjacency_list.csv). 
 
 Использованные средства языка: 
 * lxml библиотека для парсинга .osm файла;

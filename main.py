@@ -199,7 +199,7 @@ def draw_map(svgurl = "pictures/kaliningrad_map.svg"):
 # In[9]:
 
 
-def write_csv(matrix_path = 'csv/adjacency_matrix.csv', list_path = 'adjacency_list.csv'):
+def write_csv(matrix_path = 'csv/adjacency_matrix.csv', list_path = 'csv/adjacency_list.csv'):
     print("\nWriting into csv...")
     node_count = len(nodes)
     adjacency_matrix = np.zeros([node_count, node_count], dtype=np.int8) #int\

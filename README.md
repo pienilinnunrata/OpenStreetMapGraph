@@ -29,3 +29,5 @@
 Как сказал Уильям Сомерсет Моэм:
 
 >Сколько бы мы это не отрицали, но в глубине души мы знаем: всё, что с нами случилось, мы заслужили.
+
+![Kaliningrad Map](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/docs/kaliningrad_map.png)

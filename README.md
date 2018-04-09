@@ -15,7 +15,7 @@
 Реализовано:
 * Парсинг выгруженного с OpenStreetMap .osm файла;
 * [Визуализация графа в .svg с узлами (end_node и crossroad_node) и наиболее важными дорогами](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/pictures/kaliningrad_map.svg);
-* [Вывод матрицы смежности в .csv](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/csv/adjacency_matrix.csv);
+* Вывод матрицы смежности в .csv (слишком много весит и посему не была загружена в репозиторий);
 * [Вывод списка смежности в .csv](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/csv/adjacency_list.csv). 
 
 Использованные средства языка: 
@@ -24,7 +24,7 @@
 * pandas библиотека для записи в файлы .csv.
 
 ## TODO:
-* Переписать все это дело в приемлемом для ООП виде.
+* Реализовать алгоритмы поиска наикратчайшего пути.
 
 Как сказал Уильям Сомерсет Моэм:
 

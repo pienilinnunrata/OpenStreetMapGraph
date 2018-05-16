@@ -830,42 +830,6 @@ def draw_ways(found_ways, shortest_way,url):
     draw_map(nodes, ways, bounds, url, ways_to_draw, shortest_way[0])
 
 
-# ## Execute
-
-# In[22]:
-
-
-def main():
-    
-    '''nodes, ways, bounds = parse_osm()
-    nodes, ways, h_coord = delete_transitional_nodes(nodes, ways)
-    
-    draw_map(nodes, ways, bounds)
-    
-    adj_list, adj_matrix = form_adj(nodes, ways)
-    # calculating distances between nodes in km
-    v_set = vertex_set(adj_list, nodes)
-    reachable_nodes = DFS(v_set, '532159053')
-    
-    # for hospital nodes that are not connected to road
-    # works too slow
-    
-    #h_nodes = find_closest_nodes(h_coord, nodes, reachable_nodes)
-    
-    f = open('docs/hospital_nodes.txt', 'r')
-    for node in f:
-        h_nodes = [line.strip() for line in f]
-    f.close()
-    
-    quit = False
-    
-    while not quit:
-        quit = work_name(nodes, ways, bounds, reachable_nodes, adj_list, h_nodes, v_set)
-     
-    #write_into_csv(adj_list, adj_matrix)
-    print("\nAll done")'''
-
-
 # ## Задание 3
 
 # In[58]:
@@ -1154,10 +1118,6 @@ def create_matrix(node_list):
     return paths, M
 
 
-# ### Средняя разница между длинами пути в Nearest Neighbour и Greedy составила -1.07км
-# 
-# * Greedy почему-то уступает Nearest Neighbour не смотря на статистику?
-
 # ## Задание 1 (execution)
 
 # In[74]:
@@ -1287,13 +1247,13 @@ h_nodes = [line.strip() for line in f]
 f.close()'''
 
 
-# In[62]:
+# In[64]:
 
 
 TSP(h_nodes, bounds)
 
 
-# In[54]:
+# In[ ]:
 
 
 # для оценивания работы двух алгоритмов

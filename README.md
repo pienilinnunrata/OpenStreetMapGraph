@@ -12,6 +12,12 @@
 
 Проект написан на Python 3.6 в Jupyter Notebook
 
+Запуск:
+* Запуск через jupyter (notebook_proj.ipynb)
+* Инициализация нужных блоков в коде
+
+TODO: распихать по заданиям
+
 Реализовано:
 * Парсинг выгруженного с OpenStreetMap .osm файла;
 * [Визуализация графа в .svg с узлами (end_node и crossroad_node) и наиболее важными дорогами](https://github.com/pienilinnunrata/OpenStreetMapGraph/blob/master/pictures/kaliningrad_map.svg);
@@ -29,8 +35,6 @@
 * svgwrite библиотека для отрисовки карты в .svg;
 * pandas библиотека для записи в файлы .csv.
 
-## TODO:
-* Реализовать алгоритмы поиска наикратчайшего пути.
 
 Как сказал Уильям Сомерсет Моэм:
 
